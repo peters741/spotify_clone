@@ -1,0 +1,165 @@
+body{
+    background-color: black;
+}   
+header{
+    position: fixed;
+    display: flex;
+    margin-top: -6px;
+    width: 98%;
+    height: 50px;
+    padding: 10px;
+    background-color: black;
+
+}
+
+
+#h_logo{
+    margin-left: 320px;
+    
+}
+
+
+.home{
+    display: flex;
+
+}
+
+input{
+    width: 450px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: rgb(31, 31, 31);
+  font-size: var(--encore-text-size-base);
+  border: none;
+    
+}
+input:hover{
+    border: 0.2px solid white;
+}
+input::placeholder{
+    padding-left: 50px;
+}
+#search{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 440px;
+    border-radius: 20px;
+    top: 14px;
+}
+#search:hover{
+    
+    cursor: pointer;
+}
+#last{
+    
+    margin-left: 85%;
+    margin-top: 10px;
+    position: absolute;
+    margin-right: 40;
+    color: white;
+font-size: larger;
+    
+
+}
+#last1{
+    margin-left: 91%;
+    position: absolute;
+    border: none;
+    float: right;
+    
+}
+#btn{
+    font-size: larger;
+    padding-left: 20px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+     border-radius: 20px;    
+}
+#box{
+    display: flex;
+}
+#box1{
+    display: inline-block;
+    vertical-align: top;
+    width: 29%;
+    position: fixed;
+    border-radius: 10px;
+    padding: 20px;
+    height: 40vw;
+    background-color:rgb(18, 18, 18);
+}
+
+#header2{
+     width: 30%;
+     height: 7%;
+     left: 10px;
+     background-color: rgb(18, 18, 18);
+     
+
+    }
+    #text{
+        position: absolute;
+        top: 26px;
+        left: 65px;
+    }
+    #plus{
+        position: absolute; 
+        left: 380px;
+        top: 15px;
+    }
+    #btn2{
+        padding: 5px;
+        border-radius: 15px;
+        font-size:small;
+        border: none;
+    }
+
+  
+#box2{
+    position:fixed;
+    display:inline;
+    padding: 5px;
+    border-radius: 10px;
+    left: 450px ;
+    width: 850px;
+    height: 42vw;
+    background-color:rgb(32, 32, 32);
+    overflow: auto;
+    
+
+}
+
+#album{
+  display: inline-flex;
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+
+}
+#album2{
+    display: inline-flex;
+    width: 130px;
+    height: 150px;
+    border-radius: 5px;
+
+
+}
+
+#artist{
+    width: 145px;
+    height: 145px;
+    justify-content: space-around;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+#cook:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+span:hover{
+    cursor: pointer;
+    background-color: rgb(31, 31, 31);
+}
