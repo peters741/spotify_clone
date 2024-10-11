@@ -1,7 +1,131 @@
+
 body{
     background-color: black;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }   
+a[href]{
+    text-decoration: none;
+    color: white;
+}
+a[href]:hover{
+    font-size:larger;
+    text-decoration:underline;
+}
+center{
+    overflow: auto;
+}
+.log{
+cursor: pointer;
+text-decoration: underline;
+}
+#email{
+    border: 1px solid white;
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+
+}
+#email::placeholder{
+    position: absolute;
+    font-size: 15px;    
+    left: -40px;
+    color: rgb(167, 168, 168);
+    
+}
+#next{
+    background-color: rgba(92, 201, 92, 0.897);
+    width: 300px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    border: none;
+    font-size: 18px;
+}
+h5{
+    color: white; 
+    position: absolute;
+    font-size: 15px;
+    left: 49%;
+    top: 55%;
+    background-color: black; 
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.google{ 
+    position: absolute;
+    left: 39.7%;
+    top: 68.2%;
+    width: 30px;
+}
+#pass_ip::placeholder{
+    text-align: start;
+    
+}
+#mail_ip::placeholder{
+    text-align: start;
+}
+.face{
+    position: absolute;
+    left: 40%;
+    border-radius: 50%;
+    width: 30px;
+    top: 77.5%;
+}
+.apple{
+    position: absolute;
+    left: 38.8%;
+    width: 60px;
+    top: 86%;
+
+}
+#google_ip{
+    width: 300px;
+    border: 1px solid white;
+    
+}
+#face_ip{
+    width: 300px;
+    border: 1px solid white;
+
+}
+#apple_ip{
+    width: 300px;
+    border: 1px solid white;
+
+}
+#mail_ip{
+    width: 300px;
+    border-radius: 0;
+    border: 1px solid white;
+}
+#pass_ip{
+    width: 300px;
+    border-radius: 0;
+    border: 1px solid white;
+}
+#tel_ip{
+    width: 300px;
+    border: 1px solid white;
+
+}
+#tel_ip::placeholder{
+    color: white;
+}
+#google_ip::placeholder{
+    color:  white;
+    text-align: center;
+}
+#face_ip::placeholder{
+    color:  white;
+    text-align: center;
+}
+    #apple_ip::placeholder{
+        color:  white;
+        text-align: center;
+    }
 header{
     position: fixed;
     display: flex;
