@@ -2,6 +2,7 @@
 body{
     background-color: black;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
 }   
 a[href]{
     text-decoration: none;
@@ -248,12 +249,12 @@ font-size: larger;
 
   
 #box2{
-    position:fixed;
+    position: fixed;
     display:inline;
     padding: 5px;
     border-radius: 10px;
     left: 450px ;
-    width: 897px;
+    width: 69%;
     height: 42vw;
     background-color:rgb(32, 32, 32);
     overflow: auto;
