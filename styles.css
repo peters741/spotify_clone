@@ -29,7 +29,7 @@ text-decoration: underline;
 #email::placeholder{
     position: absolute;
     font-size: 15px;    
-    left: -40px;
+    
     color: rgb(167, 168, 168);
     
 }
@@ -130,7 +130,7 @@ h5{
 header{
     position: fixed;
     display: flex;
-    margin-top: -6px;
+
     width: 98%;
     height: 50px;
     padding: 10px;
@@ -246,6 +246,9 @@ font-size: larger;
         font-size:small;
         border: none;
     }
+    h6{
+        color: white;
+    }
 
   
 #box2{
@@ -255,29 +258,23 @@ font-size: larger;
     border-radius: 10px;
     left: 450px ;
     width: 69%;
-    height: 42vw;
+    height: 41vw;
     background-color:rgb(32, 32, 32);
     overflow: auto;
     
 
 }
+#show:hover{
+    text-decoration: underline;
+}
 
 #album{
   display: inline-flex;
-    width: 150px;
+    width: 160px;
     height: 150px;
     border-radius: 5px;
 
 }
-#album2{
-    display: inline-flex;
-    width: 130px;
-    height: 150px;
-    border-radius: 5px;
-
-
-}
-
 #artist{
     width: 145px;
     height: 145px;
