@@ -6,10 +6,12 @@ body{
 }   
 a[href]{
     text-decoration: none;
+
+
     color: white;
 }
 a[href]:hover{
-    font-size:larger;
+    font-size:16px;
     text-decoration:underline;
 }
 center{
@@ -49,7 +51,7 @@ h5{
     position: absolute;
     font-size: 15px;
     left: 49%;
-    top: 55%;
+    top: 51%;
     background-color: black; 
     width: 40px;
     height: 40px;
@@ -58,7 +60,7 @@ h5{
 .google{ 
     position: absolute;
     left: 39.7%;
-    top: 68.2%;
+    top: 64%;
     width: 30px;
 }
 #pass_ip::placeholder{
@@ -73,13 +75,13 @@ h5{
     left: 40%;
     border-radius: 50%;
     width: 30px;
-    top: 77.5%;
+    top: 73%;
 }
 .apple{
     position: absolute;
     left: 38.8%;
     width: 60px;
-    top: 86%;
+    top: 81.2%;
 
 }
 #google_ip{
@@ -99,12 +101,12 @@ h5{
 }
 #mail_ip{
     width: 300px;
-    border-radius: 0;
-    border: 1px solid white;
+    border-radius:0px;
+    border :1px solid white;
 }
 #pass_ip{
     width: 300px;
-    border-radius: 0;
+    border-radius: 0px;
     border: 1px solid white;
 }
 #tel_ip{
@@ -209,31 +211,57 @@ font-size: larger;
 
 
 #box{
-    display: flex;
+    width: 100%;
+    height: fit-content;
 }
 #box1{
-    display: inline-block;
-    vertical-align: top;
-    width: 29%;
+    display:block;
+    width: 400px;
     position: fixed;
     border-radius: 10px;
     padding: 20px;
     height: 40vw;
     background-color:rgb(18, 18, 18);
+    overflow: hidden;
+}
+.plus_pic{
+    width: 35px;
+    height: 35px;
+    border-radius: 60%;
+}
+  
+#box2{
+    position: fixed;
+    display: inline;
+    margin-left:0.3rem;
+    padding: 5px;
+    border-radius: 10px;
+    left: 450px;
+    width: 68%;
+    height: 41vw;
+    background-color:rgb(32, 32, 32);
+    overflow: auto;
+    
+    
+
 }
 
 #header2{
-     width: 30%;
-     height: 7%;
+     width: 400px;
+     height: 40px;
      left: 10px;
      background-color: rgb(18, 18, 18);
      
 
     }
+    #flow{
+        overflow: auto;
+    }
     #text{
         position: absolute;
-        top: 26px;
+        top: 24px;
         left: 65px;
+        font-size: 20px;
     }
     #plus{
         position: absolute; 
@@ -250,22 +278,18 @@ font-size: larger;
         color: white;
     }
 
-  
-#box2{
-    position: fixed;
-    display:inline;
-    padding: 5px;
-    border-radius: 10px;
-    left: 450px ;
-    width: 69%;
-    height: 41vw;
-    background-color:rgb(32, 32, 32);
-    overflow: auto;
-    
 
+.all{
+    display: flex;
+    width: fit-content;
+    
+   
 }
+
 #show:hover{
     text-decoration: underline;
+    display: flex;
+    
 }
 
 #album{
